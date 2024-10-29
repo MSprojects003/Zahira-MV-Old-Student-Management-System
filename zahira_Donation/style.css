@@ -1,0 +1,39 @@
+.login {
+    background-image: url('./pictures/back1.png') !important;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 0px 5px rgb(0,0,0,0.7));
+}
+.main2{
+    background:linear-gradient(45deg, #a5cece38, #a5b1b163);
+}
+.login-section {
+    background: rgb(179 169 169 / 70%);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    padding: 20px;
+}
+.dashboard{
+    display: flex;
+    flex-direction: row;
+}
+.border-l-custom {
+    position: relative;
+}
+.scale-0 { transform: scale(0); }
+.scale-100 { transform: scale(1); }
+
+.border-l-custom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(16.5%);
+    width: 2px; /* Border thickness */
+    height: 74%; /* Height of the border */
+    background-color: #4A5568; /* Border color */
+    border-style: dashed !important; /* Border style */
+}
+.flexbox{
+    width:100%;
+}
